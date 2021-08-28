@@ -24,7 +24,7 @@ export const homepage = () => {
   typhoon.textContent = "台風";
   typhoon.onclick = async function () {
     //const { data } = await fetchJSON("/api/events?subject=typhoon");
-    const data = await fetchJSON("./_data/typhoon.json");
+    const data = await fetchJSON("./json/typhoon.json");
     shuffle(data);
     let f = document.getElementById("HomePage");
     while (f.lastChild) {
@@ -40,7 +40,7 @@ export const homepage = () => {
   fire.textContent = "火災";
   fire.onclick = async function () {
     //const { data } = await fetchJSON("/api/events?subject=fire");
-    const data = await fetchJSON("./_data/fire.json");
+    const data = await fetchJSON("./json/fire.json");
     shuffle(data);
     let f = document.getElementById("HomePage");
     while (f.lastChild) {
