@@ -23,7 +23,8 @@ export const homepage = () => {
   let typhoon = document.createElement("button");
   typhoon.textContent = "台風";
   typhoon.onclick = async function () {
-    const { data } = await fetchJSON("/api/events?subject=typhoon");
+    //const { data } = await fetchJSON("/api/events?subject=typhoon");
+    const { data } = await fetchJSON("./_data/typhoon.json");
     shuffle(data);
     let f = document.getElementById("HomePage");
     while (f.lastChild) {
@@ -38,7 +39,8 @@ export const homepage = () => {
   let fire = document.createElement("button");
   fire.textContent = "火災";
   fire.onclick = async function () {
-    const { data } = await fetchJSON("/api/events?subject=fire");
+    //const { data } = await fetchJSON("/api/events?subject=fire");
+    const { data } = await fetchJSON("./_data/fire.json");
     shuffle(data);
     let f = document.getElementById("HomePage");
     while (f.lastChild) {
