@@ -1,5 +1,7 @@
 # 2021-summer-2-b
 
+https://taisukef.github.io/2021-summer-2-b/static/
+
 ## 素材
 
 ### 台風画像
