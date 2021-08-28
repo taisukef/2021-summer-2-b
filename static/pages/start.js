@@ -63,8 +63,8 @@ export const startpage = (category, data) => {
 const choicePicture = (category) => {
   switch (category) {
     case "台風":
-      return "https://www.pakutaso.com/shared/img/thumb/150909085567_TP_V.jpg";
+      return "./img/150909085567_TP_V.jpg"; // "https://www.pakutaso.com/shared/img/thumb/150909085567_TP_V.jpg";
     case "火災":
-      return "https://publicdomainq.net/images/201803/19s/publicdomainq-0020093aec.jpg";
+      return "./img/publicdomainq-0020093aec.jpg"; // "https://publicdomainq.net/images/201803/19s/publicdomainq-0020093aec.jpg";
   }
 };
