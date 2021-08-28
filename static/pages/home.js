@@ -10,7 +10,7 @@ export const homepage = () => {
 
   let div = document.createElement("div");
   let logo_pic = document.createElement("img");
-  logo_pic.src = "../img/logo.png";
+  logo_pic.src = "./img/logo.png";
   logo_pic.width = 200;
   div.appendChild(logo_pic);
   page.appendChild(div);
